@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(63, 3, 63);
+}
+nav {
+    display: flex;
+    margin-left: 60px;
+    gap: 30px;
+    padding: 12px;
+    background-color: white;
+    margin: 0;
+    position: fixed;
+    width: 120%;
+}
+
+nav li,
+a {
+    list-style: none;
+    color: brown;
+    text-decoration: none;
+}
+
+.login {
+    margin-left: 40px;
+    color: blue;
+    margin-top: 1px;
+}
+
+.btn {
+    margin-left: 50px;
+    padding: 5px;
+    gap: 20px;
+    border-radius: 20px;
+    border: 20;
+    margin-top: -6px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn li a:hover {
+    padding: 12px;
+}
+
+h1 {
+    color: rgb(168, 135, 222);
+margin-top: 100px;
+
+}
+img{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.bg {
+    background: url(/smart.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 100px;
+/* background-position: center; */
+}
